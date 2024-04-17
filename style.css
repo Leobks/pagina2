@@ -1,0 +1,86 @@
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu-home{
+    list-style: none;
+    padding: 0;
+    background-color: #09b4ac;
+}
+
+#menu-home li{
+    display: inline;
+
+}
+
+#menu-home li a{
+    color: #fff;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    transition: backgroud .4s;
+    
+}
+
+#menu-home li a:hover{
+    color: #09b4ac;
+    background-color: black;
+}
+#menu-home li:last-child a {
+    float: right;
+}
+
+.container {
+    width: 300px; 
+    margin: 0 auto; 
+    text-align: center; 
+}
+
+.logo-pain {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+h1 {
+    text-align: center; 
+}
+
+p { 
+    margin-left: 40px; 
+    margin-right: 40px; 
+    margin-bottom: 20px;
+}
+.pagina2fundo {
+    background-color: #fff; 
+}
+
+#botaoinicio {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    
+    #botaoinicio {
+        background-color: #09b4ac; /* cor de fundo do botão */
+        color: white; /* cor do texto do botão */
+        border: none;
+        padding: 10px 20px; /* espaçamento interno do botão */
+        font-size: 16px; /* tamanho da fonte do texto */
+        border-radius: 5px; /* bordas arredondadas */
+        cursor: pointer;
+        outline: none; /* remove a borda ao clicar */
+    }
+    
+    #botaoinicio:hover {
+        background-color: #09b4ac; /* cor de fundo ao passar o mouse */
+    }
+    
